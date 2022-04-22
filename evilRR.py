@@ -5,7 +5,7 @@ from pynput.keyboard import Controller, Key
 import os
 
 #Generate random number 1-6
-roulette = random.randint(6, 6)
+roulette = random.randint(1, 6)
 
 #If 1-5, it plays "yay" sound effect
 if roulette in range(1, 5):
